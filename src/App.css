@@ -1,0 +1,53 @@
+.title {
+  font-size: 3rem;
+  color: #3d0264;
+  text-align: center;
+  margin-top: 7rem;
+}
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 6px;
+  background-color: hsl(265, 19%, 88%);
+  width: 40%;
+  max-width: 50rem;
+  height: 10rem;
+  padding: 1rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.accountContainer {
+  background: #884c97;
+  width: 5.5rem;
+  height: 3rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.account {
+  color: #c8b3ce;
+}
+
+.btn {
+  font: inherit;
+  cursor: pointer;
+  background-color: #3d0264;
+  border: 1px solid #3d0264;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  color: #c8b3ce;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  margin: 1.5rem;
+}
+.btn:hover {
+  background-color: #5a097a;
+  border-color: #5a097a;
+}
